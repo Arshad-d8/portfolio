@@ -26,7 +26,7 @@ export const projects =[
     {
         id:4,
         image:hotplate,
-        link:'hot-plate-five.vercel.app',
+        link:'https://hot-plate-five.vercel.app',
         name:"Hot Plate",
         description:"Built a responsive and modern restaurant website using React with dynamic menu sections, reusable components, and smooth UI interactions"
     },
