@@ -2,6 +2,7 @@ import twofit from "./twofit-pro.png"
 import Prescripto from "./prescripto-pro.png"
 import hotplate from "./hotplate-pro.png"
 import wonder from "./wonder-pro.png"
+import ashgpt from "./ashgpt-pro.PNG"
 
 export const projects =[
     {
@@ -19,12 +20,19 @@ export const projects =[
     },
     {
         id:3,
+        image:ashgpt,
+        link:'https://ash-gpt.vercel.app/',
+        name:'AshGPT',
+        description:'ASHGPT is an AI-powered web application inspired by ChatGPT that enables users to generate both AI-based images and text content through an intuitive conversational interface. Built using the MERN stack (MongoDB, Express.js, React, Node.js), the platform provides seamless real-time interaction with integrated AI models for content creation.The system includes secure user authentication and authorization, allowing users to sign up, log in, and manage their generated outputs. Users can create prompts to generate high-quality images, blog content, social media captions, and creative writing, and view their previous generation history.'
+    },
+    {
+        id:4,
         image:wonder,
         name:"Wonder Wheelz",
         description:"Designing and developing a full-stack MERN web application for renting and buying cars.Featuring secure user authentication, car listings, booking system and admin dashboard"
     },
     {
-        id:4,
+        id:5,
         image:hotplate,
         link:'https://hot-plate-five.vercel.app',
         name:"Hot Plate",
